@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2021-12-16 18:54:38.736667",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "id",
+  "role",
+  "absentdays",
+  "pf",
+  "da",
+  "basicpay",
+  "start_date",
+  "end_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Role",
+   "options": "Intern\nDeveloper\nHouse Keeping\nHR",
+   "reqd": 1
+  },
+  {
+   "fieldname": "absentdays",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Absentdays",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pf",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "PF",
+   "reqd": 1
+  },
+  {
+   "fieldname": "da",
+   "fieldtype": "Int",
+   "label": "DA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "basicpay",
+   "fieldtype": "Int",
+   "label": "Basicpay",
+   "read_only": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "id",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-16 18:56:33.863531",
+ "modified_by": "Administrator",
+ "module": "Ps",
+ "name": "TS Employee Payroll",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
