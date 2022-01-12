@@ -81,21 +81,29 @@ app_license = "MIT"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
+override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+	"Lead":"tshotel.tshotel.custom.Python.contact.Create"
+}
 
 # Document Events
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+doc_events = {
+ 	"postal code": {
+ 		"validate": "tshotel.tshotel.custom.Python.Postcode.post",	
+	},
+	"Lead": {
+ 		"validate": "tshotel.tshotel.custom.Python.Postcode.gst",	
+	},
+	"Lead": {
+		"validate":"tshotel.tshotel.custom.Python.Postcode.ph",
+	}
+}
+
+	
+
 
 # Scheduled Tasks
 # ---------------

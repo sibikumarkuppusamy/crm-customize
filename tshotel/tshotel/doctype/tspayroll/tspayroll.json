@@ -15,7 +15,8 @@
   "tsno_of_days",
   "ts_pa",
   "ts_salary",
-  "ts_da"
+  "ts_da",
+  "prvmonth"
  ],
  "fields": [
   {
@@ -77,11 +78,17 @@
    "fieldtype": "Float",
    "label": "DA",
    "reqd": 1
+  },
+  {
+   "fieldname": "prvmonth",
+   "fieldtype": "Table",
+   "label": "prvmonth",
+   "options": "tsempsal"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-12-17 11:52:51.539038",
+ "modified": "2021-12-31 11:51:25.927269",
  "modified_by": "Administrator",
  "module": "Tshotel",
  "name": "tspayroll",
