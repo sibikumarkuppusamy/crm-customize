@@ -99,7 +99,10 @@ doc_events = {
 	},
 	"Lead": {
 		"validate":"tshotel.tshotel.custom.Python.Postcode.ph",
-	}
+	},
+#	"Item": {
+#		"autoname": "tshotel.tshotel.custom.Python.Postcode.set_si_autoname"
+#	}
 }
 
 	

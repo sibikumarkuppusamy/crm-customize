@@ -23,5 +23,8 @@ def ph(self, phone):
         pass
     else:
         frappe.throw("Please enter the correct Phone Number")
+#def set_si_autoname(doc, method):
+#	doc.item_name = "ADKEW23k"
+    
 
 
